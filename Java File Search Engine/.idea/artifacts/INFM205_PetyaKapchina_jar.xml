@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="INFM205_PetyaKapchina:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/INFM205_PetyaKapchina_jar</output-path>
-    <root id="archive" name="INFM205_PetyaKapchina.jar">
-      <element id="module-output" name="INFM205_PetyaKapchina" />
-    </root>
-  </artifact>
-</component>
