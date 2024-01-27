@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/affirmation_pink"
+    tools:context=".AffirmationActivity">
+
+    <TextView
+        android:id="@+id/affirmationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_26"
+        app:layout_constraintBottom_toTopOf="@+id/reloadAffirmation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        tools:text="People with goals succeed because they know where they’re going"/>
+
+    <Button
+        android:id="@+id/reloadAffirmation"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="@dimen/spacing_16"
+        android:background="@drawable/heart_shape"
+        android:backgroundTint="@color/white"
+        android:text="@string/new_affirmation"
+        android:textSize="@dimen/text_size_18"
+        android:textColor="@color/affirmation_pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

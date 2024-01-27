@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200px"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/toothImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:src="@drawable/tooth_lower"/>
+
+    <TextView
+        android:id="@+id/toothTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_100"
+        android:layout_weight="1"
+        tools:text="Position1"/>
+
+</LinearLayout>

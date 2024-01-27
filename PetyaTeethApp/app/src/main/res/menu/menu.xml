@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeMenu"
+        android:title="@string/home_menu"
+        app:showAsAction="always"
+        android:icon="@drawable/tooth_lower"
+        android:iconTint="@color/theme_main"/>
+
+    <item
+        android:id="@+id/affirmationMenu"
+        android:icon="@drawable/affirmation_24"
+        android:title="@string/affirmations_menu"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/theme_main"/>
+</menu>

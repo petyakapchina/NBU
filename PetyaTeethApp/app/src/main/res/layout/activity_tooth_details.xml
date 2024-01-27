@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tooth_detail_background"
+    tools:context=".ToothDetailsActivity">
+
+    <TextView
+        android:id="@+id/toothId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tooth_id_label"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_18"
+        android:layout_marginStart="@dimen/spacing_16"
+        android:layout_marginTop="@dimen/spacing_16"/>
+
+    <Spinner
+        android:id="@+id/toothStatuses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toothId"
+        android:layout_marginStart="@dimen/spacing_16"
+        android:layout_marginEnd="@dimen/spacing_16"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_8"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/saveStatusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveToothState"
+        android:layout_below="@id/toothStatuses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_16"
+        android:background="@color/btn_ok"
+        android:textColor="@color/white"
+        android:paddingStart="@dimen/spacing_16"
+        android:paddingEnd="@dimen/spacing_16"
+        android:paddingTop="@dimen/spacing_8"
+        android:paddingBottom="@dimen/spacing_8"/>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Petya\'s Teeth App</string>
+    <string name="healthy">Healthy</string>
+    <string name="filling">Filling</string>
+    <string name="root_filling">Root Filling</string>
+    <string name="missing">Missing</string>
+    <string name="crown">Crown</string>
+    <string name="implant">Implant</string>
+    <string name="bridge">Bridge</string>
+    <string name="bonding">Bonding</string>
+    <string name="facet">Facet</string>
+    <string name="new_affirmation">New Affirmation</string>
+    <string name="affirmations_menu">Affirmations</string>
+    <string name="saveToothState">Save</string>
+    <string name="tooth_id_label">Tooth ID:</string>
+    <string name="home_menu">Home</string>
+</resources>
